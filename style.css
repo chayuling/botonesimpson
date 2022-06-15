@@ -1,0 +1,63 @@
+* {
+    box-sizing: :border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(images/fondo\ cielo.jpg);
+}
+
+.cajafondo1 {
+    display: flex;
+    border: 1px solid black;
+    height: 8rem;
+    background-color: azure;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+a {
+    height: 7rem;
+}
+
+h4 {
+    font-family: 'Gloria Hallelujah', cursive;
+    padding-top: 6px;
+}
+
+#homero:hover {
+    color: #33cccc;
+}
+
+#marge:hover {
+    color: #7f4081;
+}
+
+#bart:hover {
+    color: #77bb47 ;
+}
+
+#lisa:hover {
+    color: #e73046 ;
+}
+
+#maggie:hover {
+    color: #2fb5d6;
+}
+
+#flanders:hover {
+    color: #27944a;
+}
+
+.anima1 {
+    transition: transform .8s !important;
+}
+
+.anima1:hover {
+    transform: scale(2);
+}
